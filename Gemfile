@@ -10,6 +10,11 @@ end
 gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use mySql in production
+gem 'mysql2'
+# These 2 gems needed for msSql in production
+gem 'tiny_tds'
+gem 'activerecord-sqlserver-adapter'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
